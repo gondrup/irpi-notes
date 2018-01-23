@@ -68,4 +68,20 @@ Press buttons on a remote and watch for output
 - Enable Wifi with dongle
 - Test on battery
 
+# SFX
+
 curl http://192.168.0.81/play.php --data "source=/var/www/html/sound/off_on.mp3"
+curl http://192.168.0.81/play.php --data 'say="a"'
+
+# Webcam
+
+sudo apt install fswebcam
+fswebcam -r 640x480 ~/Pictures/webcamtest.jpg
+
+# Web API
+
+[https://getgrav.org/blog/raspberrypi-nginx-php7-dev]
+
+sudo apt install php7.0 php7.0-curl php7.0-gd php7.0-fpm php7.0-cli php7.0-opcache php7.0-mbstring php7.0-xml php7.0-zip
+php -v
+sudo apt install nginx

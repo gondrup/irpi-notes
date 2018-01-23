@@ -19,6 +19,9 @@ case $1 in
 "23_heat")
     /usr/bin/irsend SEND_ONCE fujitsu_ac on_23_heat_auto
     ;;
+"off")
+    /usr/bin/irsend SEND_ONCE fujitsu_ac off
+    ;;
 *)
     echo "Usage: $0 <mode>"
     ;;
