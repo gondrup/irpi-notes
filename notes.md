@@ -67,5 +67,3 @@ Press buttons on a remote and watch for output
 - Password protect the pi
 - Enable Wifi with dongle
 - Test on battery
-
-curl http://192.168.0.81/play.php --data "source=/var/www/html/sound/off_on.mp3"
