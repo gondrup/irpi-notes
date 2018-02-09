@@ -85,3 +85,5 @@ fswebcam -r 640x480 ~/Pictures/webcamtest.jpg
 sudo apt install php7.0 php7.0-curl php7.0-gd php7.0-fpm php7.0-cli php7.0-opcache php7.0-mbstring php7.0-xml php7.0-zip
 php -v
 sudo apt install nginx
+
+(install composer): https://getcomposer.org/doc/00-intro.md
